@@ -1,4 +1,4 @@
-/*! Hint.css - v2.3.1 - 2016-06-05
+/*! Hint.css - v2.3.1 - 2016-06-23
 * http://kushagragour.in/lab/hint/
 * Copyright (c) 2016 Kushagra Gour; Licensed  */
 
@@ -521,6 +521,37 @@
 
 .hint--success.hint--right:before {
   border-right-color: #458746; }
+
+/**
+ * Base
+ */
+.hint--base:after {
+  background-color: #3B78E7;
+  text-shadow: 0 -1px 0px #123f91; }
+
+.hint--base.hint--top-left:before {
+  border-top-color: #3B78E7; }
+
+.hint--base.hint--top-right:before {
+  border-top-color: #3B78E7; }
+
+.hint--base.hint--top:before {
+  border-top-color: #3B78E7; }
+
+.hint--base.hint--bottom-left:before {
+  border-bottom-color: #3B78E7; }
+
+.hint--base.hint--bottom-right:before {
+  border-bottom-color: #3B78E7; }
+
+.hint--base.hint--bottom:before {
+  border-bottom-color: #3B78E7; }
+
+.hint--base.hint--left:before {
+  border-left-color: #3B78E7; }
+
+.hint--base.hint--right:before {
+  border-right-color: #3B78E7; }
 
 /**
  * source: hint-always.scss
